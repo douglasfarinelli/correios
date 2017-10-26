@@ -1,6 +1,8 @@
 -r requirements.txt
 factory-boy==2.8.1
-mypy
+isort==4.2.15
+flake8==3.5.0
+mypy==0.540
 pytest
 pytest-cov
 pytest-factoryboy
