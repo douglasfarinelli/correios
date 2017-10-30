@@ -60,4 +60,9 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
     ],
+    entry_point={
+        'console_scripts': [
+            'update_correios_wsdl = correios.update_wsdl:update_wsdl'
+        ]
+    }
 )
